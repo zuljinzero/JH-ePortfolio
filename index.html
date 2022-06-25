@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF=8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv"X-UA-Compatible" content="ie=edge" />
+        <title>Login application with database</title>
+        <!-- Links to an Excel spreadsheet parser and writer for processing file upload -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+        <!-- Links the code data_queries.js. type="module" allows for exporting and importing functions -->
+        <script type="module" src="./data_queries.js"></script>
+        <!-- Links the code from login_app.js. type="module" allows for exporting and importing functions -->
+        <script type="module" src="./login_app.js"></script>
+    </head>
+    <!-- Calls loginMenu() when loaded -->
+    <body onload="loginMenu();">
+        <!-- Horizontally centers input object -->
+        <div style="text-align:center;">
+            <!-- Creates input object accepting Excel files -->
+            <input type="file" id="records" accept=".xls,.xlsx" ><input/>
+        </div>
+    </body>
+</html>
