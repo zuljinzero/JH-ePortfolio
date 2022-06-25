@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Joseph Helmuth",
   "license": "ISC",
   "dependencies": {
     "mongodb": "^4.7.0",
