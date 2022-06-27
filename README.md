@@ -33,6 +33,10 @@ I designed, developed, and delivered professional-quality oral, written, and vis
 - Easy to understand code comments
 - Easy to follow user communications and menus
 
+Reflecting on the process of enhancing and modifying the artifact I learned how to: import/export functions from a separate JavaScript file, create an HTML file to allow JavaScript code to run in an internet browser, create pop-up windows in an internet browser that allow for user input, create a local live server with Visual Studio Code.
+
+The challenges that I faced were: issues importing/exporting functions from a separate JavaScript file as the original import code caused the application to halt before running any functions because I did not know I needed to specify the exporting file as type=”module” in the index.html file, issues running the application after the previous issue was resolved due to opening the indext.html file instead of running the index.html file through a local live server since the application relies on a second JavaScript file.
+
 ### **4. Algorithms and Data Structure**
 
 To enhance the artifact, I designed and evaluated computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design by adding new user options to update user access levels and transfer funds between customer accounts. I also created an HTML file loader and JavaScript event listener for accepting Excel files to add multiple customer records.
@@ -47,6 +51,10 @@ I developed a security mindset that anticipates adversarial exploits in software
 - HTML Excel file loader
 - Event listener for Excel file loading and processing
 
+Reflecting on the process of enhancing and modifying the artifact I learned how to: use JavaScript to accept Excel file uploads and store the contents in an array, utilize an Excel file parser, create an input object with HTML, create an event listener in JavaScript, check if a number variable is not a number (NaN).
+
+The challenges that I faced were: finding an Excel file parser that worked correctly for what I needed, issues checking if strings converted to numbers were not a number (NaN) as they were still identified as a number unless isNaN() is used.
+
 ### **5. Databases**
 
 To enhance the artifact, I demonstrated an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals by converting the local database to an online MongoDB Atlas database and converting SQL queries to NoSQL queries within "try, catch, finally" statements that connect and close the database client while catching errors.
@@ -57,3 +65,7 @@ To enhance the artifact, I demonstrated an ability to use well-founded and innov
 - Implement "try, catch, finally" statements
 - Query for customer funds transfer
 - Query for updating user access level
+
+Reflecting on the process of enhancing and modifying the artifact I learned how to: import MongoDB Atlas database in place of a local database, convert my previous SQL queries NoSQL queries, use “try, catch, finally”, use async and await when communicating with an online database, round to two decimals in JavaScript.
+
+The challenges that I faced were: importing MongoDB functions into JavaScript to be used in a browser, using parseFloat().toFix(2) converts the float to a string so I had to embed it with parseFloat(parseFloat().toFix(2)) to end up as a float. 
