@@ -15,7 +15,7 @@ The artifact that I chose for this portfolio is a login application with a datab
 
 ### **2. Code Review**
 
-_INSERT LINK_
+My code review for the artifact can be found [here](https://youtu.be/Fi0Leo_5mdI).
 
 ### **3. Software Design and Engineering**
 
